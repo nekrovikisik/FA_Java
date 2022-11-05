@@ -25,6 +25,6 @@ public class Main {
             System.out.println(entry.getKey() + " " + entry.getValue());
         }
 
-        System.out.println("args = БЛЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯТЬ");
+        System.out.println("args = test");
     }
 }
