@@ -1,10 +1,6 @@
 package Task2;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class Garage {
-    //private Map<Car,Integer> map = new HashMap<>();
     private Car[] cars;
     private int max_capacity;
     private int is_enough_place;
