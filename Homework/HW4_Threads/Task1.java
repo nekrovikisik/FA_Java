@@ -1,3 +1,7 @@
+// Напишите программу, в которой создаются два потока,
+// которые выводят на консоль своё имя по очереди.
+
+
 package HW4_Threads;
 
 
@@ -9,21 +13,14 @@ class MyThread extends Thread {
 
     @Override
     public void run() {
-//        while (true) {
-            synchronized (obj) {
-//                try {
-                    System.out.println(getName());
-                    obj.notify();
-//                    obj.wait();
-//                } catch (InterruptedException e) {
-//                    e.printStackTrace();
-//                }
-//            }
+        synchronized (obj) {
+            System.out.print(getName());
+            obj.notify();
         }
     }
 }
 
-public class Main {
+public class Task1 {
     public static void main(String[] args) {
         Object obj = new Object();
         new MyThread(obj).start();
