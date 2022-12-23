@@ -4,7 +4,7 @@ import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
-public class Task {
+public class Task{
     private static int counter = 0;
     private boolean isDone;
     private int id;
@@ -18,7 +18,7 @@ public class Task {
         this.id = ++counter;
         this.title = title;
         this.description = description;
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("uuuu/MM/dd HH:mm:ss");
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-uuuu");
         ZonedDateTime now = ZonedDateTime.now();
         this.startDate = dtf.format(now);
 

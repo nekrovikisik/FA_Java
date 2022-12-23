@@ -2,7 +2,7 @@
 // которые выводят на консоль своё имя по очереди.
 
 
-package HW4_Threads;
+package HW_4_Threads;
 
 
 class MyThread extends Thread {

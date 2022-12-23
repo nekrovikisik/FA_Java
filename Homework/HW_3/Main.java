@@ -1,4 +1,4 @@
-package HW3;
+package HW_3;
 
 public class Main {
 }
