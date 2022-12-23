@@ -2,7 +2,6 @@ package HW_6_Scheduler;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Scheduler {
@@ -115,7 +114,13 @@ public class Scheduler {
             System.out.println("Список заданий пуст.");
         }
     }
-
+//Осталась фильтрация:
+//
+//    Просмотреть список ВЫПОЛНЕННЫХ заданий
+//    Просмотреть список НЕВЫПОЛНЕННЫХ заданий
+//    Пункты 4-6 на конкретную дату ВЫПОЛНЕНИЯ
+//    Пункты 4-6 на конкретную дату СОЗДАНИЯ
+//    Просмотреть детальную информацию о задании
 
 
 
