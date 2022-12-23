@@ -2,6 +2,7 @@ package HW_6_Scheduler;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Scheduler {
@@ -103,6 +104,17 @@ public class Scheduler {
                 }
 
             }
+    public void showTasks(ArrayList myTasks) {
+//        Вывод всех заданий
+        try {
+            for (int i = 0; i < myTasks.size(); i++) {
+                System.out.println(myTasks.get(i).toString() + "\n");
+            }
+        }
+        catch (Exception e){
+            System.out.println("Список заданий пуст.");
+        }
+    }
 
 
 
