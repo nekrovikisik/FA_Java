@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.w3.org/1999/xhtml">
+
+<body>
+
+<h1 align="center">Create Registration Form using Form Tag in Spring MVC</h1>
+
+<form name="f" th:action="@{/registration}" method="post" >
+
+  <div align="center">
+
+    <!-- A Simple Input Field -->
+    <label for=>login : </label>
+    <input type="login" id="login" name="login"/>
+
+    <br/>
+
+    <label for=>surname : </label>
+    <input type="surname" id="surname" name="surname"/>
+
+    <br/>
+
+    <label for=>lastname : </label>
+    <input type="lastname" id="lastname" name="lastname"/>
+
+    <br/>
+
+    <label for=>middlename : </label>
+    <input type="middlename" id="middlename" name="middlename"/>
+
+    <label for=> ">birthday</label>
+    <input type="date" id="birthday" name="birthday"/>
+
+    <br/>
+
+    <!-- Button Field -->
+    <button type="submit" value="Register">Submit </button>
+
+  </div>
+
+</form>
+
+</body>
+</html>
+
